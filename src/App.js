@@ -9,7 +9,7 @@ function App() {
                   <div className='logo'>
                     <h3>Landingpage React</h3>
                   </div>
-                  <div className=''>
+                  <div className='item-menu'>
                       <a href='#'>Login</a>
                   </div>
               </div>
