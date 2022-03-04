@@ -124,9 +124,13 @@ input[type='submit']:hover {
 
 .footer {
   display: flex;
-  flex-direction: row;
+  position: fixed;
+  bottom: 0px;
+  margin: 10px;
 }
 
 .footer a{
+  text-decoration: none;
   margin: 0px 10px;
+  color: blueviolet;
 }
