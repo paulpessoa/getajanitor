@@ -120,3 +120,13 @@ input[type='submit']:hover {
 .content-single p{
   text-align: justify;
 }
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer a{
+  margin: 0px 10px;
+}
