@@ -19,9 +19,9 @@ function App() {
                   <form>
                       <h2>Contact us</h2>
                       <div className='items-form'>
-                          <input type="text" placeholder='Name here...'/>
-                          <input type="email" placeholder='E-mail here...'/>
-                          <input type="tel" placeholder='Phone number...' required/>
+                          <input type="text" placeholder='Name...'/>
+                          <input type="tel" placeholder='Phone...' required/>
+                          <input type="date" required/>
                           <input type="submit" value='Request Janitor'/>
                      
                       </div>
