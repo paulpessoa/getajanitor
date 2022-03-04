@@ -86,3 +86,38 @@ input[type='submit']:hover {
   color: blueviolet;
   cursor: pointer;
 }
+
+
+
+
+
+.benefits {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.content-single {
+  min-width: 350px;
+  border-radius: 4px;
+  max-width: 48%;
+  padding: 30px;
+  margin: 10px 0px;
+  box-shadow: 1px 1px 4px blueviolet;
+}
+
+.content-single:hover {
+   box-shadow: 1px 1px 10px blueviolet;
+}
+
+.content-single h3{
+  text-align: justify;
+  color: blueviolet;
+  margin-bottom: 10px;
+}
+
+.content-single p{
+  text-align: justify;
+}
