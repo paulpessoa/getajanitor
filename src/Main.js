@@ -30,6 +30,24 @@ function Main (){
             </div>
         </div>
 
+        <div className="conteudo">
+            <div className="center">
+                <div className="conteudo-single">
+                    <h3>Benefits Title</h3>
+                    <p>Here is written a text to fill this space, do you have an idea to help me?</p>
+                </div>
+                <div className="conteudo-single">
+                    <h3>Benefits Title</h3>
+                    <p>Here is written a text to fill this space, do you have an idea to help me?</p>
+                </div>
+                <div className="conteudo-single">
+                    <h3>Benefits Title</h3>
+                    <p>Here is written a text to fill this space, do you have an idea to help me?</p>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
 
