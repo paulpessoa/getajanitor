@@ -1,8 +1,8 @@
 # GetJanitor-Landing-Page
 
-Project made to practice CSS and JavaScript.
+This is just a ReactJs project .
 
-[<img src="getjanitor-photo.png" alt="Image GetJanitor Photo">](
+[<img src="./src/getjanitor-photo.png" alt="Image GetJanitor Photo">](
 https://paulpessoa.github.io/landingpage-react/)
 
 
