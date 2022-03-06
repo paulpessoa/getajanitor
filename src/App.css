@@ -4,6 +4,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  /*box-shadow: 1px 1px 1px 1px red;*/
 }
 .center {
   max-width: 1024px;
@@ -13,7 +14,7 @@
 .main {
   padding: 40px;
   width: 100%;
-  background-image: linear-gradient(to  bottom,   #4b00c2, #a600ff,  #ed00c4, #a600ff,  #4b00c2);  
+  background-image: linear-gradient(to  bottom, #da5700, #ff7b00);  
 }
 
 
@@ -39,12 +40,65 @@
 
 .menu a:hover {
   background-color: #fff;
-  color: blueviolet ;
+  color: #da5700 ;
 }
+
+.banner {
+  background-image: url('./janitors.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.banner .center{
+  padding: 100px;
+  text-align: center;
+}
+
+.banner .center h1{
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.banner .center p{
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.benefits {
+  padding: 60px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.content-single {
+  border-radius: 4px;
+  max-width: 48%;
+  padding: 30px;
+  margin: 10px 0px;
+  box-shadow: 1px 1px 4px #5c5c5c;
+}
+
+.content-single:hover {
+   box-shadow: 1px 1px 10px #086100;
+   transform: scale(1.01);
+}
+
+.content-single h3{
+  text-align: justify;
+  color: #086100;
+  margin-bottom: 10px;
+}  
+
+.content-single p{
+  text-align: justify;
+}  
 
 
 .form {
-  margin: 80px auto;
+  margin: 0px auto;
   width: 100%;
   max-width: 600px;
   text-align: center;
@@ -64,7 +118,7 @@
 .items-form input {
   padding: 10px;
   margin: 4px;
-  background-color: blueviolet;
+  background-color: #da5700;
   color: #fff;
   border: 1px solid #fff;
   border-radius: 4px;
@@ -82,55 +136,22 @@ input[type='submit'] {
 
 input[type='submit']:hover {
   background-color: #fff;
-  color: blueviolet;
+  color: #da5700;
   cursor: pointer;
 }
 
-
-
-
-
-.benefits {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.content-single {
-  min-width: 350px;
-  border-radius: 4px;
-  max-width: 48%;
-  padding: 30px;
-  margin: 10px 0px;
-  box-shadow: 1px 1px 4px blueviolet;
-}
-
-.content-single:hover {
-   box-shadow: 1px 1px 10px blueviolet;
-}
-
-.content-single h3{
-  text-align: justify;
-  color: blueviolet;
-  margin-bottom: 10px;
-}
-
-.content-single p{
-  text-align: justify;
-}
-
-
 .footer {
-  display: flex;
-  position: fixed;
-  bottom: 0px;
-  margin: 10px;
-}
+  margin: 10px auto;
+  bottom: 0;
+}  
 
+.author {
+  display: flex;
+  justify-content: center;
+}
 .footer a{
   text-decoration: none;
   margin: 0px 10px;
-  color: blueviolet;
-}
+  color: #da5700;
+}  
+

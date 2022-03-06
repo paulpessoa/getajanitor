@@ -1,13 +1,17 @@
 import './App.css';
-import Content from './Conteudo';
+import Header from './Header';
+import Form from './Form';
+import Content from './Content';
+import Benefits from './Benefits';
 import Footer from './Footer';
-import Main from './Main';
 
 function App() {
   return (
       <div className='App'>
-          <Main />
-          <Content/>
+          <Header />
+          <Content />
+          <Benefits/>
+          <Form />
           <Footer />
       </div>
   );

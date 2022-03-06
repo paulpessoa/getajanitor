@@ -1,4 +1,4 @@
-function Content () {
+function Benefits () {
     return (
         <div className="content">
             <div className="center benefits">
@@ -24,4 +24,5 @@ function Content () {
     );
 }
 
-export default Content;
+
+export default Benefits;
