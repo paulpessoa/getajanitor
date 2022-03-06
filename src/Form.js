@@ -1,10 +1,10 @@
 function Form() {
     return (
-      <div className="main">
-        <div className="center">
+      <div className="contact">
+        
             <div className="form">
                 <form>
-                <h2>Contact us</h2>
+                <h2>schedule cleaning</h2>
                 <div className="items-form">
                     <input type="text" placeholder="Name..." />
                     <input type="tel" placeholder="Phone..." required />
@@ -14,7 +14,7 @@ function Form() {
                 </form>
             </div>
         </div>
-      </div>
+      
     );
   }
   

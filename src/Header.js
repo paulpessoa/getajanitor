@@ -7,7 +7,8 @@ function Header() {
             <h3>GetJanitor</h3>
           </div>
           <div className="item-menu">
-            <a href="/">Login</a>
+            <a className="button-login" href="/">Login</a>
+            <a className="button-register" href="/">Register</a>
           </div>
         </div>
 
