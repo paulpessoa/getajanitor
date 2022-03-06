@@ -1,3 +1,11 @@
+# GetJanitor-Landing-Page
+
+Project made to practice CSS and JavaScript.
+
+[<img src="getjanitor-photo.png" alt="Image GetJanitor Photo">](
+https://paulpessoa.github.io/landingpage-react/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
