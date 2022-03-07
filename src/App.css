@@ -1,11 +1,10 @@
 /* Reset CSS */
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  
 }
+
 .center {
   max-width: 1024px;
   margin: 0 auto;
@@ -25,7 +24,7 @@
   justify-content: space-between;
 }
 
-.logo{
+.logo {
   color: #fff;
   font-size: 24px;
   padding: 8px;
@@ -45,6 +44,7 @@
   transition: 0.3s;
   margin-right: 20px;
 }
+
 .button-login:hover {
   transform: scale(0.98);
   transition: 0.3s;
@@ -159,7 +159,7 @@ input::placeholder {
   color: #fff;
 }
 
-input[type="submit"] {
+input[type=submit] {
   font-weight: bold;
   font-size: 16px;
   background-color: #fff;
@@ -167,7 +167,7 @@ input[type="submit"] {
   transition: 0.3s;
 }
 
-input[type="submit"]:hover {
+input[type=submit]:hover {
   transition: 0.3s;
   background-color: #fff;
   color: #003764;
@@ -186,13 +186,17 @@ input[type="submit"]:hover {
   justify-content: center;
   color: #5a5a5a;
 }
+
 .footer a {
   text-decoration: none;
   margin: 0px 10px;
   font-weight: bold;
   color: #5a5a5a;
 }
+
 .footer a:hover {
   font-size: 1rem;
   color: #003764;
 }
+
+/*# sourceMappingURL=App.css.map */
