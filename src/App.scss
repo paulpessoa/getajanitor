@@ -109,6 +109,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  h2 {
+    font-size: 30px;
+    color: #003764;
+    text-transform: uppercase;
+  }
   .content-single {
     border-radius: 4px;
     max-width: 48%;
