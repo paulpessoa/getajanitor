@@ -1,6 +1,4 @@
-# GetJanitor-Landing-Page
-
-This is just a ReactJs project .
+# GetJanitor Landing Page
 
 [<img src="./src/getjanitor-photo.png" alt="Image GetJanitor Photo">](
 https://paulpessoa.github.io/landingpage-react/)
