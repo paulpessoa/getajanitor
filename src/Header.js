@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div className="main">
+    <div className="header">
       <div className="center">
         <div className="menu">
           <div className="logo">

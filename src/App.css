@@ -3,6 +3,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 
 .center {
@@ -11,83 +12,94 @@
   padding: 0 2%;
 }
 
-.main {
-  padding: 30px;
+/*----------------header---------------*/
+.header {
+  padding: 16px;
   width: 100%;
   background-image: linear-gradient(to bottom, #003764, #0055a5);
 }
-
-.menu {
+.header .logo {
+  color: #fff;
+  font-size: 24px;
+  padding: 8px;
+  cursor: pointer;
+}
+.header .logo h3:hover {
+  text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.377);
+}
+.header .menu {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
-.logo {
-  color: #fff;
-  font-size: 24px;
-  padding: 8px;
-}
-
-.item-menu {
+.header .item-menu {
   display: flex;
   padding: 8px;
 }
-
-.button-login {
+.header .button-login {
   color: white;
-  text-decoration: none;
   padding: 6px 10px;
   border-radius: 4px;
   font-weight: bold;
   transition: 0.3s;
   margin-right: 20px;
 }
-
-.button-login:hover {
-  transform: scale(0.98);
+.header .button-login:hover {
   transition: 0.3s;
+  background-color: rgba(223, 223, 223, 0.288);
 }
-
-.button-register {
+.header .button-register {
   color: #003764;
   background-color: #fff;
-  text-decoration: none;
-  border: 1px solid #fff;
-  padding: 6px 10px;
+  padding: 8px 20px;
   border-radius: 4px;
   font-weight: bold;
   transition: 0.2s;
 }
-
-.button-register:hover {
-  background-color: #fff;
+.header .button-register:hover {
+  background-color: #cbe7ff;
   color: #003764;
   transition: 0.3s;
-  transform: scale(0.98);
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.377);
 }
 
+/*----------------banner---------------*/
 .banner {
   background-image: url(./janitor.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 150px;
+  padding: 140px;
 }
-
 .banner h1 {
   text-align: left;
   font-size: 60px;
   text-transform: uppercase;
   color: #003764;
+  text-shadow: 2px 0px 3px #fff;
+  font-weight: bold;
 }
-
 .banner .center p {
   font-size: 20px;
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 800px) {
+  /*----------------banner---------------*/
+  .banner {
+    padding: 150px 30px 130px;
+  }
+  .banner h1 {
+    padding-top: 170px;
+    font-size: 44px;
+  }
+  .banner .center p {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+/*----------------benefits---------------*/
 .benefits {
   padding: 60px 20px;
   display: flex;
@@ -95,56 +107,50 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
-.content-single {
+.benefits .content-single {
   border-radius: 4px;
   max-width: 48%;
+  min-width: 340px;
   padding: 30px;
   margin: 10px 0px;
-  box-shadow: 1px 1px 4px #5c5c5c;
+  box-shadow: 1px 1px 4px #bbbbbb;
   transition: 0.3s;
 }
-
-.content-single:hover {
-  box-shadow: 1px 1px 10px #003764;
-  transform: scale(1.01);
+.benefits .content-single:hover {
+  box-shadow: 1px 1px 6px #004177c4;
+  transform: scale(1.001);
   transition: 0.3s;
 }
-
-.content-single h3 {
+.benefits .content-single h3 {
   text-align: justify;
   color: #003764;
   margin-bottom: 10px;
 }
-
-.content-single p {
+.benefits .content-single p {
   text-align: justify;
 }
 
+/*----------------contect form---------------*/
 .contact {
   background-image: linear-gradient(to bottom, #003764, #0055a5);
 }
-
-.form {
+.contact .form {
   margin: 0px auto;
-  padding: 50px 0px;
+  padding: 50px;
   width: 100%;
   max-width: 600px;
   text-align: center;
   color: #fff;
 }
-
-.form h2 {
+.contact .form h2 {
   text-transform: uppercase;
 }
-
-.items-form {
+.contact .form .items-form {
   display: flex;
   flex-direction: column;
   margin: 20px auto;
 }
-
-.items-form input {
+.contact .form .items-form input {
   padding: 10px;
   margin: 4px;
   font-size: 16px;
@@ -153,47 +159,42 @@
   border: 1px solid #fff;
   border-radius: 4px;
   background-color: transparent;
+  width: 100%;
 }
-
-input::placeholder {
+.contact .form .items-form input::placeholder {
   color: #fff;
 }
-
-input[type=submit] {
+.contact .form .items-form input[type=submit] {
   font-weight: bold;
   font-size: 16px;
   background-color: #fff;
   color: #003764;
   transition: 0.3s;
 }
-
-input[type=submit]:hover {
+.contact .form .items-form input[type=submit]:hover {
   transition: 0.3s;
-  background-color: #fff;
+  background-color: #cbe7ff;
   color: #003764;
-  border: #c0c0c0 1px solid;
+  border: #cbe7ff 1px solid;
   cursor: pointer;
-  transform: scale(0.99);
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.377);
 }
 
+/*----------------contect form---------------*/
 .footer {
   margin: 10px auto;
   bottom: 0;
 }
-
-.author {
+.footer .author {
   display: flex;
   justify-content: center;
   color: #5a5a5a;
 }
-
 .footer a {
-  text-decoration: none;
   margin: 0px 10px;
   font-weight: bold;
   color: #5a5a5a;
 }
-
 .footer a:hover {
   font-size: 1rem;
   color: #003764;

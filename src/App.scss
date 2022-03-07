@@ -1,199 +1,203 @@
 /* Reset CSS */
-
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.center {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+/*----------------header---------------*/
+.header {
+  padding: 16px;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #003764, #0055a5);
+  .logo {
+    color: #fff;
+    font-size: 24px;
+    padding: 8px;
+    cursor: pointer;
+    h3:hover {
+      text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.377);
+    }
   }
-  .center {
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 0 2%;
-  }
-  
-  .main {
-    padding: 30px;
-    width: 100%;
-    background-image: linear-gradient(to bottom, #003764, #0055a5);
-  }
-  
   .menu {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  
-  .logo{
-    color: #fff;
-    font-size: 24px;
-    padding: 8px;
-  }
-  
   .item-menu {
     display: flex;
     padding: 8px;
   }
-  
+
   .button-login {
     color: white;
-    text-decoration: none;
     padding: 6px 10px;
     border-radius: 4px;
     font-weight: bold;
     transition: 0.3s;
     margin-right: 20px;
+    &:hover {
+      transition: 0.3s;
+      background-color: rgba(223, 223, 223, 0.288);
+    }
   }
-  .button-login:hover {
-    transform: scale(0.98);
-    transition: 0.3s;
-  }
-  
+
   .button-register {
     color: #003764;
     background-color: #fff;
-    text-decoration: none;
-    border: 1px solid #fff;
-    padding: 6px 10px;
+    padding: 8px 20px;
     border-radius: 4px;
     font-weight: bold;
     transition: 0.2s;
+    &:hover {
+      background-color: #cbe7ff;
+      color: #003764;
+      transition: 0.3s;
+      box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.377);
+    }
   }
-  
-  .button-register:hover {
-    background-color: #fff;
-    color: #003764;
-    transition: 0.3s;
-    transform: scale(0.98);
-  }
-  
-  .banner {
-    background-image: url(./janitor.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 150px;
-  }
-  
-  .banner h1 {
+}
+
+/*----------------banner---------------*/
+.banner {
+  background-image: url(./janitor.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 140px;
+  h1 {
     text-align: left;
     font-size: 60px;
     text-transform: uppercase;
     color: #003764;
+    text-shadow: 2px 0px 3px #fff;
+    font-weight: bold;
   }
-  
-  .banner .center p {
+  .center p {
     font-size: 20px;
     text-transform: uppercase;
   }
-  
-  .benefits {
-    padding: 60px 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+}
+
+@media screen and (max-width: 800px) {
+  /*----------------banner---------------*/
+  .banner {
+    padding: 150px 30px 130px;
+    h1 {
+      padding-top: 170px;
+      font-size: 44px;
+    }
+    .center p {
+      font-size: 15px;
+      font-weight: 600;
+    }
   }
-  
+}
+
+
+/*----------------benefits---------------*/
+.benefits {
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   .content-single {
     border-radius: 4px;
     max-width: 48%;
+    min-width: 340px;
     padding: 30px;
     margin: 10px 0px;
-    box-shadow: 1px 1px 4px #5c5c5c;
+    box-shadow: 1px 1px 4px #bbbbbb;
     transition: 0.3s;
+    &:hover {
+      box-shadow: 1px 1px 6px #004177c4;
+      transform: scale(1.001);
+      transition: 0.3s;
+    }
+    h3 {
+      text-align: justify;
+      color: #003764;
+      margin-bottom: 10px;
+    }
+    p {
+      text-align: justify;
+    }
   }
-  
-  .content-single:hover {
-    box-shadow: 1px 1px 10px #003764;
-    transform: scale(1.01);
-    transition: 0.3s;
-  }
-  
-  .content-single h3 {
-    text-align: justify;
-    color: #003764;
-    margin-bottom: 10px;
-  }
-  
-  .content-single p {
-    text-align: justify;
-  }
-  
-  .contact {
-    background-image: linear-gradient(to bottom, #003764, #0055a5);
-  }
-  
+}
+/*----------------contect form---------------*/
+.contact {
+  background-image: linear-gradient(to bottom, #003764, #0055a5);
   .form {
     margin: 0px auto;
-    padding: 50px 0px;
+    padding: 50px;
     width: 100%;
     max-width: 600px;
     text-align: center;
     color: #fff;
+    h2 {
+      text-transform: uppercase;
+    }
+    .items-form {
+      display: flex;
+      flex-direction: column;
+      margin: 20px auto;
+      input {
+        padding: 10px;
+        margin: 4px;
+        font-size: 16px;
+        background-color: #086100;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        background-color: transparent;
+        width: 100%;
+        &::placeholder {
+          color: #fff;
+        }
+        &[type="submit"] {
+          font-weight: bold;
+          font-size: 16px;
+          background-color: #fff;
+          color: #003764;
+          transition: 0.3s;
+          &:hover {
+            transition: 0.3s;
+            background-color: #cbe7ff;
+            color: #003764;
+            border: #cbe7ff 1px solid;
+            cursor: pointer;
+            box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.377);
+          }
+        }
+      }
+    }
   }
-  
-  .form h2 {
-    text-transform: uppercase;
-  }
-  
-  .items-form {
-    display: flex;
-    flex-direction: column;
-    margin: 20px auto;
-  }
-  
-  .items-form input {
-    padding: 10px;
-    margin: 4px;
-    font-size: 16px;
-    background-color: #086100;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    background-color: transparent;
-  }
-  
-  input::placeholder {
-    color: #fff;
-  }
-  
-  input[type="submit"] {
-    font-weight: bold;
-    font-size: 16px;
-    background-color: #fff;
-    color: #003764;
-    transition: 0.3s;
-  }
-  
-  input[type="submit"]:hover {
-    transition: 0.3s;
-    background-color: #fff;
-    color: #003764;
-    border: #c0c0c0 1px solid;
-    cursor: pointer;
-    transform: scale(0.99);
-  }
-  
-  .footer {
-    margin: 10px auto;
-    bottom: 0;
-  }
-  
+}
+
+/*----------------contect form---------------*/
+.footer {
+  margin: 10px auto;
+  bottom: 0;
   .author {
     display: flex;
     justify-content: center;
     color: #5a5a5a;
   }
-  .footer a {
-    text-decoration: none;
+  a {
     margin: 0px 10px;
     font-weight: bold;
     color: #5a5a5a;
+    &:hover {
+      font-size: 1rem;
+      color: #003764;
+    }
   }
-  .footer a:hover {
-    font-size: 1rem;
-    color: #003764;
-  }
-  
+}
