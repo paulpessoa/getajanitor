@@ -13,9 +13,9 @@ function Form() {
             <input type="hidden" name="_autoresponse" value="your custom message"/>
             <input type="text" name="name" placeholder="Name..." required/>
             <input type="tel" name="phone" placeholder="Phone..." required />
-            <input type="date" name="date" value="2022-03-07" required />
+            <input type="date" name="date" required />
             <input type="mail" name="mail" placeholder="your@email.com" required/>
-            <input type="submit" value="Request Janitor" />
+            <input type="submit" value="Request Janitor"/>
           </div>
         </form>
       </div>

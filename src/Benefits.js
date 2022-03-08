@@ -55,6 +55,32 @@ function Benefits() {
             </details>
           </p>
         </div>
+        <div className="content-single">
+          <h3>Flexible</h3>
+          <p>
+            Here is written a text to fill this space, do you have an idea to
+            help me?{" "}
+            <details>
+              {" "}
+              <summary>Click to know more...</summary> Here is written details
+              Here is written details Here is written details Here is written
+              details Here is written details{" "}
+            </details>
+          </p>
+        </div>
+        <div className="content-single">
+          <h3>Flexible</h3>
+          <p>
+            Here is written a text to fill this space, do you have an idea to
+            help me?{" "}
+            <details>
+              {" "}
+              <summary>Click to know more...</summary> Here is written details
+              Here is written details Here is written details Here is written
+              details Here is written details{" "}
+            </details>
+          </p>
+        </div>
       </div>
     </div>
   );

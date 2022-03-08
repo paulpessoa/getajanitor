@@ -81,31 +81,39 @@
   font-weight: bold;
 }
 .banner .center p {
+  font-weight: 500;
   font-size: 20px;
   text-transform: uppercase;
 }
 
 @media screen and (max-width: 800px) {
-  /*----------------banner---------------*/
+  /*----------------banner mobile---------------*/
   .banner {
-    padding: 150px 30px 130px;
+    padding: 150px 28px 130px;
   }
   .banner h1 {
     padding-top: 170px;
     font-size: 44px;
   }
   .banner .center p {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
+  }
+
+  .content-single {
+    max-width: 80%;
+    min-width: 80%;
   }
 }
 /*----------------benefits---------------*/
 .benefits {
-  padding: 60px 20px;
+  padding: 80px 0px;
+  text-align: center;
+}
+.benefits .benefits-card {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 .benefits h2 {
   font-size: 30px;
@@ -114,10 +122,10 @@
 }
 .benefits .content-single {
   border-radius: 4px;
-  max-width: 48%;
-  min-width: 340px;
+  max-width: 33%;
+  width: 320px;
   padding: 30px;
-  margin: 10px 0px;
+  margin: 10px;
   box-shadow: 1px 1px 4px #bbbbbb;
   transition: 0.3s;
 }
@@ -133,6 +141,16 @@
 }
 .benefits .content-single p {
   text-align: justify;
+  color: #5a5a5a;
+}
+.benefits .content-single summary {
+  cursor: pointer;
+  list-style: none;
+  font-weight: bold;
+  text-align: right;
+}
+.benefits .content-single summary:hover {
+  color: #4b4b4b;
 }
 
 /*----------------contect form---------------*/
@@ -185,7 +203,7 @@
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.377);
 }
 
-/*----------------contect form---------------*/
+/*----------------footer---------------*/
 .footer {
   margin: 10px auto;
   bottom: 0;
