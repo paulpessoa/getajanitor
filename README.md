@@ -1,7 +1,7 @@
 # GetJanitor Landing Page
 
 [<img src="./src/getjanitor-photo.png" alt="Image GetJanitor Photo">](
-https://paulpessoa.github.io/landingpage-react/)
+https://paulpessoa.github.io/getajanitor/)
 
 
 # Getting Started with Create React App
