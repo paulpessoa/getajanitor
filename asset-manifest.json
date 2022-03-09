@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/landingpage-react/static/css/main.65ba3aea.css",
-    "main.js": "/landingpage-react/static/js/main.69653640.js",
-    "static/js/787.d7f8f31b.chunk.js": "/landingpage-react/static/js/787.d7f8f31b.chunk.js",
-    "static/media/janitor.webp": "/landingpage-react/static/media/janitor.cea29b7c08694f80714f.webp",
-    "index.html": "/landingpage-react/index.html",
-    "main.65ba3aea.css.map": "/landingpage-react/static/css/main.65ba3aea.css.map",
-    "main.69653640.js.map": "/landingpage-react/static/js/main.69653640.js.map",
-    "787.d7f8f31b.chunk.js.map": "/landingpage-react/static/js/787.d7f8f31b.chunk.js.map"
+    "main.css": "/getajanitor/static/css/main.5f817695.css",
+    "main.js": "/getajanitor/static/js/main.91dce2a3.js",
+    "static/js/787.d7f8f31b.chunk.js": "/getajanitor/static/js/787.d7f8f31b.chunk.js",
+    "static/media/janitor.webp": "/getajanitor/static/media/janitor.cea29b7c08694f80714f.webp",
+    "index.html": "/getajanitor/index.html",
+    "main.5f817695.css.map": "/getajanitor/static/css/main.5f817695.css.map",
+    "main.91dce2a3.js.map": "/getajanitor/static/js/main.91dce2a3.js.map",
+    "787.d7f8f31b.chunk.js.map": "/getajanitor/static/js/787.d7f8f31b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65ba3aea.css",
-    "static/js/main.69653640.js"
+    "static/css/main.5f817695.css",
+    "static/js/main.91dce2a3.js"
   ]
 }
